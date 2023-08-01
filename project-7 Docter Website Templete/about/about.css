@@ -1,0 +1,107 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+.nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 100px;
+}
+
+/* About main section  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 60vh;
+  /* padding: 10px; */
+}
+
+.description {
+  width: 50%;
+  text-align: center;
+  margin: 120px auto 30px;
+}
+
+.description h1 {
+  font-size: 33px;
+  font-weight: 800;
+  width: 40vw;
+  margin-bottom: 30px;
+  color: #20bc7e;
+}
+
+.achievement {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.description p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 44vw;
+  color: black;
+  font-weight: 550;
+}
+
+/* desinging the achievement card */
+.achievement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.achievement-card {
+  height: 100px;
+  width: 200px;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.achievement span {
+  color: #20bc7e;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.achievement p {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
