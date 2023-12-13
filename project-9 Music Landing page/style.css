@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: 60%;
+  background-image: url(https://images.unsplash.com/photo-1594434533760-02e0f3faaa68?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVyc29uJTIwd2l0aCUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D);
+  background-position: center;
+  opacity: 1;
+  background-size: cover;
+
+}
+
+#overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.265);
+}
+
+#text {
+  position: absolute;
+  width: 100%;
+  padding: 0 10vw;
+  /* background-color: blue; */
+  color: white;
+  bottom: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#text h1 {
+  font-size: 6vw;
+  font-weight: 500;
+}
+#text-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+#text-right p {
+  font-size: 12px;
+  width: 40%;
+}
+#text-right i {
+  color: #fff;
+}
+#bottom {
+  width: 100%;
+  height: 40%;
+  /* background-color: rgb(76, 0, 255); */
+  display: flex;
+}
+
+#bone {
+  width: 25%;
+  height: 100%;
+  background-color: #ffffffa4;
+  padding: 30px;
+}
+#bone p {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+#btwo {
+  width: 25%;
+  height: 100%;
+  background-image: url(https://i.pinimg.com/564x/75/f6/44/75f64405b2f81f029ddb7e9488d08aec.jpg);
+  background-position: top;
+  background-size: cover;
+}
+#bthree {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(140, 160, 95);
+}
+#bthree-top {
+  width: 100%;
+  height: 50%;
+  background-color: orangered;
+  color: white;
+  padding: 20px;
+}
+#bthree-top p {
+  font-size: 10px;
+  margin-top: 18px;
+}
+#bthree-botm {
+  width: 100%;
+  height: 50%;
+  background-image: url(https://i.pinimg.com/564x/41/29/da/4129da8f3356098c96ce40b9d0cf05d9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#bfour {
+  width: 30%;
+  height: 100%;
+  background-color: #444;
+  color: white;
+  padding: 30px;
+}
+
+.notif {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.notif #photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.notif p {
+  width: 86%;
+  font-size: 12px;
+}
